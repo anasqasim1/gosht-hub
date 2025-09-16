@@ -1,14 +1,8 @@
 "use client";
 import React, { useState } from "react";
-
 import {
   Card,
-  CardAction,
   CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
 } from "@/components/ui/card";
 import logo from "@/public/assets/images/logo.svg";
 import Image from "next/image";
@@ -17,10 +11,8 @@ import { zSchema } from "../../../../lib/zodSchema";
 import {
   Form,
   FormControl,
-  FormDescription,
   FormField,
   FormItem,
-  FormLabel,
   FormMessage,
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
